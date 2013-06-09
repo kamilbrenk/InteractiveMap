@@ -1,0 +1,74 @@
+/*
+ * Map container
+ */
+.map-container, .map-container * {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box}
+.map-container {overflow: hidden; width: 919px; margin: 10px auto}
+.map-container>div {overflow: hidden; width: 919px; border: 1px solid #ccc}
+.map-container .mobile {display: none; margin-top: 0}
+
+
+.map {position: relative; overflow: hidden; width: 920px; height: 1064px; margin: 0; background: #fff url('../images/map_background.png') repeat 0 0}
+
+.map img {position: relative; z-index: 4; margin: 0; padding: 0; width: 100%}
+.map .background {position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 1}
+
+.map .countries,
+.map .countries>li {position: absolute; top: 0; right: 0; left: 0; bottom: 0; z-index: 2; margin: 0; padding: 0}
+.map .countries>li {background: transparent none no-repeat 0 0; text-indent: -9999em}
+.map .countries>li.hover {z-index: 3; background-position: -920px 0}
+
+.map .countries>.albania {background-image: url('../images/countries/europe/albania.png')}
+.map .countries>.andorra {background-image: url('../images/countries/europe/andorra.png')}
+.map .countries>.austria {background-image: url('../images/countries/europe/austria.png')}
+.map .countries>.belarus {background-image: url('../images/countries/europe/belarus.png')}
+.map .countries>.belgium {background-image: url('../images/countries/europe/belgium.png')}
+.map .countries>.bosnia {background-image: url('../images/countries/europe/bosnia.png')}
+.map .countries>.bulgaria {background-image: url('../images/countries/europe/bulgaria.png')}
+.map .countries>.croatia {background-image: url('../images/countries/europe/croatia.png')}
+.map .countries>.czech-republic {background-image: url('../images/countries/europe/czech_republic.png')}
+.map .countries>.denmark {background-image: url('../images/countries/europe/denmark.png')}
+.map .countries>.england {background-image: url('../images/countries/europe/england.png')}
+.map .countries>.estonia {background-image: url('../images/countries/europe/estonia.png')}
+.map .countries>.finland {background-image: url('../images/countries/europe/finland.png')}
+.map .countries>.france {background-image: url('../images/countries/europe/france.png')}
+.map .countries>.germany {background-image: url('../images/countries/europe/germany.png')}
+.map .countries>.greece {background-image: url('../images/countries/europe/greece.png')}
+.map .countries>.hungary {background-image: url('../images/countries/europe/hungary.png')}
+.map .countries>.iceland {background-image: url('../images/countries/europe/iceland.png')}
+.map .countries>.ireland {background-image: url('../images/countries/europe/ireland.png')}
+.map .countries>.italy {background-image: url('../images/countries/europe/italy.png')}
+.map .countries>.latvia {background-image: url('../images/countries/europe/latvia.png')}
+.map .countries>.lichtenstein {background-image: url('../images/countries/europe/lichtenstein.png')}
+.map .countries>.lithuania {background-image: url('../images/countries/europe/lithuania.png')}
+.map .countries>.luxemburg {background-image: url('../images/countries/europe/luxemburg.png')}
+.map .countries>.macedonia {background-image: url('../images/countries/europe/macedonia.png')}
+.map .countries>.malta {background-image: url('../images/countries/europe/malta.png')}
+.map .countries>.moldova {background-image: url('../images/countries/europe/moldova.png')}
+.map .countries>.montenegro {background-image: url('../images/countries/europe/montenegro.png')}
+.map .countries>.netherlands {background-image: url('../images/countries/europe/netherlands.png')}
+.map .countries>.norway {background-image: url('../images/countries/europe/norway.png')}
+.map .countries>.poland {background-image: url('../images/countries/europe/poland.png')}
+.map .countries>.portugal {background-image: url('../images/countries/europe/portugal.png')}
+.map .countries>.romania {background-image: url('../images/countries/europe/romania.png')}
+.map .countries>.russia {background-image: url('../images/countries/europe/russia.png')}
+.map .countries>.serbia {background-image: url('../images/countries/europe/serbia.png')}
+.map .countries>.slovakia {background-image: url('../images/countries/europe/slovakia.png')}
+.map .countries>.slovenia {background-image: url('../images/countries/europe/slovenia.png')}
+.map .countries>.spain {background-image: url('../images/countries/europe/spain.png')}
+.map .countries>.sweden {background-image: url('../images/countries/europe/sweden.png')}
+.map .countries>.switzerland {background-image: url('../images/countries/europe/switzerland.png')}
+.map .countries>.turkey {background-image: url('../images/countries/europe/turkey.png')}
+.map .countries>.ukraine {background-image: url('../images/countries/europe/ukraine.png')}
+
+
+@media only screen and (max-width: 960px) {
+	.map-container {width: auto}
+	.map-container>div {border: 0}
+	.map-container .mobile {display: block}
+	.map {width: auto; height: auto; margin-right: 0; margin-left: 0; border: 0; background: transparent}
+	.map img {display: none}
+	.map .countries,
+	.map .countries>li {position: static; list-style: decimal}
+	.map .countries {margin-top: -5px; padding-left: 40px}
+	.map .countries>li {padding: 5px 0 0 10px; background: none; text-indent: 0}
+}
