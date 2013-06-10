@@ -9,8 +9,9 @@ Interactive map of Europe, created by using of HTML, CSS i JavaScript. The map p
 
 The map is compatible with modern browsers and also with IE8.
 
-Tutorial of the map (only in Polish):
+  - Tutorial (only in Polish):
 [Interaktywna mapa z HTML i CSS](http://blog.kamilbrenk.pl/interaktywna-mapa-z-html-i-css/)
+  - [Live demo](http://blog.kamilbrenk.pl/examples/map/)
 
 Version
 -
