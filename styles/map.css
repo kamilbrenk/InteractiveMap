@@ -15,7 +15,7 @@
 .map .countries,
 .map .countries>li {position: absolute; top: 0; right: 0; left: 0; bottom: 0; z-index: 2; margin: 0; padding: 0}
 .map .countries>li {background: transparent none no-repeat 0 0; text-indent: -9999em}
-.map .countries>li.hover {z-index: 3; background-position: -920px 0}
+.map .countries>li.hover {background-position: -920px 0}
 
 .map .countries>.albania {background-image: url('../images/countries/europe/albania.png')}
 .map .countries>.andorra {background-image: url('../images/countries/europe/andorra.png')}
