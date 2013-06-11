@@ -1,11 +1,11 @@
 InteractiveMap
 ==============
 
-Interactive map of Europe, created by using of HTML, CSS i JavaScript. The map presents countries in three states:
+Interactive map of Europe, created by using of HTML, CSS and JavaScript. The map presents countries in three states:
 
   - _deactive_ - the country isn't clickable
-  - _active_ - the country is clicked
-  - _hover_ - user places mouse on the country in 'active' state
+  - _active_ - the country is clickable
+  - _hover_ - user places cursor on the country in 'active' state
 
 The map is compatible with modern browsers and also with IE8.
 
